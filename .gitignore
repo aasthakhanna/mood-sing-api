@@ -15,7 +15,9 @@ var/
 *.egg-info/
 .installed.cfg
 *.egg
-__py_cache__
+node_modules/
+__py_cache__/
+.env
 
 # Serverless directories
 .serverless

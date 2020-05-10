@@ -8,7 +8,7 @@ provider:
 
 custom:
   wsgi:
-    app: app.app
+    app: mood_sing/app.app
     packRequirements: false
 
 functions:
