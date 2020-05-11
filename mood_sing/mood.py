@@ -17,8 +17,8 @@ def calculate_mood(audio_features: AudioFeatures):
     # red makes the mood happier
     # green makes the mood happier combined with red
     # blue makes the mood sadder
-    red = int((total_danceability + total_energy) / 2 * 255)
-    green = int(total_valence * 255)
+    red = int(total_valence * 255)
+    green = int((total_danceability + total_energy) / 2 * 255)
     blue = int((1 - ((total_danceability + total_energy + total_valence) / 3)) * 255)
     
     return rgb_to_hex(red, green, blue)
