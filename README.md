@@ -5,8 +5,14 @@ This API works in conjunction with the [Mood Ring UI](https://github.com/aasthak
 
 ## Local Setup
 1.) Install npm
+
+
 2.) Install Python3, pipenv, and Flask
+
+
 3.) Install [Serverless](https://www.serverless.com/framework/docs/getting-started/)
+
+
 4.) Run "pipenv install" and "npm install" to install dependencies on your local machine
 
 ## Endpoints
