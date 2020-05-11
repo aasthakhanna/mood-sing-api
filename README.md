@@ -16,7 +16,9 @@ This API works in conjunction with the [Mood Ring UI](https://github.com/aasthak
 4.) Run "pipenv install" and "npm install" to install dependencies on your local machine
 
 ## Endpoints
-This API has one endpoint, GET /getColor. It expects a Bearer token, provided as an Authorization header, that will allow it to access Spotify's API. [The client is responsible for providing this authorization]. (https://developer.spotify.com/documentation/general/guides/authorization-guide/) An example on how this authentication can be implemented can be found in the [Mood Ring UI](https://github.com/aasthakhanna/mood-sing-ui).
+This API has one endpoint, GET /getColor. It expects a Bearer token, provided as an Authorization header, that will allow it to access Spotify's API. [The client is responsible for providing this authorization.](https://developer.spotify.com/documentation/general/guides/authorization-guide/) 
+
+An example on how this authentication can be implemented can be found in the [Mood Ring UI](https://github.com/aasthakhanna/mood-sing-ui).
 
 ## Deployment
 This API uses Serverless, which deploys code from your local environment to an AWS lambda using CloudFormation templates. It exposes the endpoints on AWS API Gateway and hosts them on a domain for easy access.
