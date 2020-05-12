@@ -7,7 +7,7 @@ import constants
 from mood_sing.response_objects import RecentlyPlayedResponse, AudioFeaturesResponse
 
 class SpotifyClient:
-    def __init__(self) -> bool:
+    def __init__(self):
         self.api_url = constants.SPOTIFY_API_URL
         self.__set_headers()
 
